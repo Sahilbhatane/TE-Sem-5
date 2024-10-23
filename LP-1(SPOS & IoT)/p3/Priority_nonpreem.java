@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Priority {
+public class Priority_nonpreem {
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
         int x, n, p[], pp[], bt[], w[], t[], awt = 0, atat = 0, i;
@@ -9,15 +9,6 @@ public class Priority {
         bt = new int[10];
         w = new int[10];
         t = new int[10];
-
-        // n is number of processes
-        // p is process
-        // pp is process priority
-        // bt is process burst time
-        // w is wait time
-        // t is turnaround time
-        // awt is average waiting time
-        // atat is average turnaround time
 
         System.out.print("Enter the number of processes: ");
         n = s.nextInt();
